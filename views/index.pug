@@ -1,0 +1,119 @@
+meta(charset='UTF-8')
+meta(http-equiv='X-UA-Compatible', content='IE=edge')
+meta(name='viewport', content='width=device-width,initial-scale=1')
+title portfolio
+link(rel='stylesheet', href='/css/styles.css')
+link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.15.3/css/all.css', integrity='sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk', crossorigin='anonymous')
+meta(charset='UTF-8')
+meta(http-equiv='X-UA-Compatible', content='IE=edge')
+meta(name='viewport', content='width=device-width,initial-scale=1')
+title portfolio
+script(src='js/app.js')
+.wrapper
+  header
+    nav.navbar
+      .brand
+        h2
+          | A 
+          span F
+      ul.menu
+        li
+          a.active(href='#') Inicio
+        li
+          a(href='#') Quien Soy
+        li
+          a(href='#') Portafolio
+        li
+          a(href='#') Contacto
+  main.main
+    .info-content
+      h1
+        | Yo soy 
+        span Aldo 
+        |  Franky
+      p Estudiante de la carrea de Diseño y desarrollador de Software,  del instituto Tecsup 
+      a(download, href='#')
+        button.download-cv Download CV
+    img(src='https://media.istockphoto.com/id/531725653/es/foto/letra-de-fuego-sobre-fondo-negro.jpg?s=612x612&w=0&k=20&c=rE9_Z947gD3gJM084pfVl73scYCEKn1L_NHoTtffVgE=', alt)
+.about
+  img(src='https://uvn-brightspot.s3.amazonaws.com/assets/vixes/m/musica-amor-coracao-1016-1400x800.jpg', alt)
+  .about-info
+    h2 Sobre mi 
+    .divider
+    p Me gusta escuchar musica mientras realizo los diferentes laboratorios de todos los cursos.
+    p Tambien me gusta ver diferentes tipos de generos.
+    button.download-cv Read more
+.portfolio
+  .portfolio-heading
+    h2 My Portfolio
+    .divider
+  .container
+    .card
+      .card__img.
+        
+        
+      .card__title
+        h2 Project Description
+      .card__proyect-links
+        a(href='#')
+          i.fab.fa-github
+        a(href)
+          i.fas.fa-globe-asia
+        a(href)
+          i.fas.fa-code
+      .button-content
+        button.project-details-button.download-cv
+          a(href='#') Project Details
+    .card
+      .card__img.
+        
+        
+      .card__title
+        h2 Project Description
+      .card__proyect-links
+        a(href='#')
+          i.fab.fa-github
+        a(href)
+          i.fas.fa-globe-asia
+        a(href)
+          i.fas.fa-code
+      .button-content
+        button.project-details-button.download-cv
+          a(href='#') Project Details
+    .card
+      .card__img.
+        
+        
+      .card__title
+        h2 Project Description
+      .card__proyect-links
+        a(href='#')
+          i.fab.fa-github
+        a(href)
+          i.fas.fa-globe-asia
+        a(href)
+          i.fas.fa-code
+      .button-content
+        button.project-details-button.download-cv
+          a(href='#') Project Details
+.contact-section
+  .contact-heading
+    h2 Contato
+    .divider
+  .container-contact
+    img(src='https://www.factoriabiz.com/wp-content/uploads/2018/03/contratar_programador.jpg', alt)
+    .contact-form
+      h4 Contacto
+      form.form-group
+        input.input(type='text', placeholder='Nombres')
+        input.input(type='email', placeholder='Correo')
+        textarea(name='message', placeholder='Escriba un comentario')
+        button.btn-submit(type='submit') Enviar
+footer.footer
+  .footer-content
+    h2 Aldo Franky 
+    h5 Estudiante de Tecsup
+  .sotial-networks
+    i.fab.fa-instagram
+    i.fab.fa-linkedin
+    i.fab.fa-twitter-squar
